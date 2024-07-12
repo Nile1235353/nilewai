@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #ffffff url(./images/bg.png) repeat-x;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666666;
+}
+
+#header {
+	width: 920px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+#logo {
+	float:left;
+}
+
+#menu {
+	float: right;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 40px 0 0 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 135px;
+	height: 65px;
+	padding-top: 30px;
+	background-image: url(./images/button.png);
+	background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-size: 1.6em;
+	color: #ffffff;
+}
+
+#menu a:hover{
+	background-image:url(./images/hoverbutton.png);
+	color: #600;
+}
+
+#page {
+	width: 870px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 20px;
+	color: #000;
+	background: white;
+}
+
+#page h3 {
+	color: #090;
+	font-size: 16px;
+}
+
+#page td{
+	border-top: 1px solid #ccc;
+	padding: 10px;
+}
+
+#footer {
+	width: 920px;
+	height: 50px;
+	text-align: center;
+	colur:white;
+	margin: 0 auto;
+	background: url(images/footer.png) repeat-x;
+}
